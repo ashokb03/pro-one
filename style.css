@@ -9,16 +9,14 @@
 .navbar{
     background-color: black;
     height: 70px;
-    align-items: center;    
-    justify-content: space-between;
 	z-index: 999;
 }
 
 .navbar h1{
     font-size: 2rem;
     color : tomato;
-    margin-bottom: 40px;
     margin-left: 10px;
+    height: 45px;
     cursor: pointer;   
     text-transform: uppercase;  /* ? */
     font-family:Comic Sans MS, Comic Sans, cursive;
@@ -79,8 +77,8 @@
 
 .navbar ul li{
     display: inline-block;
-    padding: 15px;
-    margin-bottom: 25px;
+    line-height: 50px;
+    width: 75px;
 }
 
 .navbar ul li a{
@@ -93,17 +91,12 @@
     color : tomato;
 }
 
-.search input{
-    margin-bottom: 40px;
-    margin-right: 10px;
-    outline: none;
-    padding : 3px;
-    width : 150px;
-    color:white;
-    text-align: center;
-    border-radius: 5px;
-    border : 3px solid tomato;
-    background: transparent;
+.icon{
+    font-size: 23px;
+    color: tomato;
+    cursor: pointer;
+    margin-right: 30px;
+    height: 47px;
 }
 
 
@@ -112,11 +105,11 @@
 /* home start */
 
 #home{
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 #home img{
-    height: 590px;
+    height: 89vh; /* vh for height */
     width:100%;
     filter: brightness(0.9);  
 }
@@ -128,8 +121,9 @@
 
 }
 
-.matter h1{
-    font-size: 50px;
+.matter h1 span{
+    color:tomato;
+    font-size: 38px;
 
 }
 
@@ -138,6 +132,17 @@
     font-size: 18px;
     font-family:Comic Sans MS, Comic Sans, cursive;
 
+}
+
+#home button{
+    height: 40px;
+    width : 100px;  
+    border-radius: 10px;
+    outline : none;
+    background-color : tomato;
+    color : white;
+    text-align: center;
+    cursor: pointer;
 }
 
 /* home end */
