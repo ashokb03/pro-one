@@ -102,6 +102,8 @@
 
 /* header end */
 
+
+
 /* home start */
 
 #home{
@@ -116,7 +118,7 @@
 
 .matter{
     position: absolute;
-    top: 25%;
+    top: 30%;
     padding : 125px;
 
 }
@@ -127,15 +129,9 @@
 
 }
 
-.matter p{
-    color:tomato;
-    font-size: 18px;
-    font-family:Comic Sans MS, Comic Sans, cursive;
-
-}
 
 #home button{
-    height: 40px;
+    height: 35px;
     width : 100px;  
     border-radius: 10px;
     outline : none;
@@ -146,6 +142,41 @@
 }
 
 /* home end */
+
+
+/* about start */
+
+.abt{
+    margin-top: 75px;
+}
+
+.abt img{
+    height: 75vh;
+    margin-left: 40px;   
+}
+
+.abt h1{
+    color:tomato;
+    text-align: start;
+    margin-top: 120px;
+}
+
+.abt h1:hover{
+    background-color: tomato;
+    width:175px;
+    color:black;
+    border-radius: 10px;
+}
+
+
+.abt p{
+    color:white;
+    font-size: 23px;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+
+
+/* about end */
 
 
 /* items start */
@@ -161,7 +192,9 @@
     border-radius: 10px;
 }
     
-/* items ebd */
+/* items end */
+
+
 
 /* menu start */
 
